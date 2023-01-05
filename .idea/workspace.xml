@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/17-Exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16-Exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/16-Exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16-TheOfficialSimpleGui_InputPopup.py" beforeDir="false" afterPath="$PROJECT_DIR$/16-TheOfficialSimpleGui_InputPopup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17-TheOfficialSimpleGUI_FileFolderPopup.py" beforeDir="false" afterPath="$PROJECT_DIR$/17-TheOfficialSimpleGUI_FileFolderPopup.py" afterDir="false" />
-    </list>
+    <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16-TheOfficialSimpleGui_InputPopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16-TheOfficialSimpleGuiCourse_InputPopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16-TheOfficialSimpleGui_InputPopup.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui\16-TheOfficialSimpleGuiCourse_InputPopup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17-TheOfficialSimpleGUI_FileFolderPopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17-TheOfficialSimpleGUICourse_FileFolderPopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17-TheOfficialSimpleGUI_FileFolderPopup.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui\17-TheOfficialSimpleGUICourse_FileFolderPopup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,9 +174,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.17-Exercises" />
-        <item itemvalue="Python.17-TheOfficialSimpleGUI_FileFolderPopup" />
+        <item itemvalue="Python.17-TheOfficialSimpleGUICourse_FileFolderPopup" />
         <item itemvalue="Python.16-Exercises" />
-        <item itemvalue="Python.16-TheOfficialSimpleGui_InputPopup" />
+        <item itemvalue="Python.16-TheOfficialSimpleGuiCourse_InputPopup" />
         <item itemvalue="Python.popup_get_text(1)" />
       </list>
     </recent_temporary>
