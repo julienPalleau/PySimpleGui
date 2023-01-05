@@ -37,6 +37,5 @@ sg.Print('Output from popups', font='Default 14', keep_on_top=True, size=(30, 10
 # Open window folders
 name = sg.popup_get_folder('What is the folder name', 'Filename')
 
-sg.Print(f'get_file = {name}')
-
-sg.popup('Exit')
+sg.Print(f'get_file = {name}')  # print in a separate debug window
+sg.popup(f'get_file = {name}')  # print in the popup window

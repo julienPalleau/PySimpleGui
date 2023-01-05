@@ -29,6 +29,6 @@ password = sg.popup_get_text('Enter your passwd')
 # Add code to output the entered values
 
 
-sg.popup(f'Name: {name}, Password: {password}')
+sg.popup(f'Name: {name}, Password: {password}') # print in a popup window
 
 sg.popup('Exit')
