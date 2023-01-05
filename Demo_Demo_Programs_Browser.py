@@ -34,11 +34,14 @@ import PySimpleGUI as sg
     Copyright 2021 PySimpleGUI.org
 """
 
+
 def running_linux():
     return sys.platform.startswith('linux')
 
+
 def running_windows():
     return sys.platform.startswith('win')
+
 
 def get_file_list_dict():
     """
@@ -98,7 +101,7 @@ def get_global_editor():
     :return: Path to the editor
     :rtype: str
     """
-    try:    # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
+    try:  # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
         global_editor = sg.pysimplegui_user_settings.get('-editor program-')
     except:
         global_editor = ''
@@ -112,7 +115,7 @@ def get_editor():
     :return: Path to the editor
     :rtype: str
     """
-    try:    # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
+    try:  # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
         global_editor = sg.pysimplegui_user_settings.get('-editor program-')
     except:
         global_editor = ''
@@ -130,7 +133,7 @@ def get_explorer():
     :return: Path to the file explorer EXE
     :rtype: str
     """
-    try:    # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
+    try:  # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
         global_explorer = sg.pysimplegui_user_settings.get('-explorer program-', '')
     except:
         global_explorer = ''
@@ -148,7 +151,6 @@ def advanced_mode():
     :rtype: bool
     """
     return sg.user_settings_get_entry('-advanced mode-', False)
-
 
 
 def get_theme():
@@ -169,9 +171,11 @@ def get_theme():
         user_theme = global_theme
     return user_theme
 
+
 # We handle our code properly. But in case the user types in a flag, the flags are now in the middle of a regex. Ignore this warning.
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 
 # New function
 def get_line_number(file_path, string):
@@ -182,7 +186,9 @@ def get_line_number(file_path, string):
                 lmn = num
     return lmn
 
-def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=None, ignore_case=True, show_first_match=True):
+
+def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=None, ignore_case=True,
+                 show_first_match=True):
     """
     Search through the demo files for a string.
     The case of the string and the file contents are ignored
@@ -195,7 +201,6 @@ def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=Non
     :return: List of files containing the string
     :rtype: List[str]
     """
-
 
     # So you face a prediciment here. You wish to read files, both small and large; however the bigger the file/bigger the list, the longer to read the file.
     # This probably isn't what you want, right?
@@ -234,7 +239,7 @@ def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=Non
                                     file_list.append(file)
                                     num_files += 1
                                 if verbose:
-                                    sg.cprint(f"{file}:", c = 'white on green')
+                                    sg.cprint(f"{file}:", c='white on green')
                                     sg.cprint(f"{match.group(0).decode('utf-8')}\n")
                 else:
                     window['-FIND NUMBER-'].update(f'{num_files} files')
@@ -242,14 +247,18 @@ def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=Non
                     matches = None
                     if (ignore_case):
                         if (show_first_match):
-                            matches = re.search(br'(?i)^' + bytes(".*("+re.escape(string.lower()) + ").*$", 'utf-8'), s, re.MULTILINE)
+                            matches = re.search(br'(?i)^' + bytes(".*(" + re.escape(string.lower()) + ").*$", 'utf-8'),
+                                                s, re.MULTILINE)
                         else:
-                            matches = re.finditer(br'(?i)^' + bytes(".*("+re.escape(string.lower()) + ").*$", 'utf-8'), s, re.MULTILINE)
+                            matches = re.finditer(
+                                br'(?i)^' + bytes(".*(" + re.escape(string.lower()) + ").*$", 'utf-8'), s, re.MULTILINE)
                     else:
                         if (show_first_match):
-                            matches = re.search(br'^' + bytes(".*("+re.escape(string) + ").*$", 'utf-8'), s, re.MULTILINE)
+                            matches = re.search(br'^' + bytes(".*(" + re.escape(string) + ").*$", 'utf-8'), s,
+                                                re.MULTILINE)
                         else:
-                            matches = re.finditer(br'^' + bytes(".*("+re.escape(string) + ").*$", 'utf-8'), s, re.MULTILINE)
+                            matches = re.finditer(br'^' + bytes(".*(" + re.escape(string) + ").*$", 'utf-8'), s,
+                                                  re.MULTILINE)
                     if matches:
                         if show_first_match:
                             file_list.append(file)
@@ -281,7 +290,6 @@ def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=Non
             print(exc_type, fname, exc_tb.tb_lineno)
             print(f'{file}', e, file=sys.stderr)
 
-
     file_lines_dict = {}
     if not regex:
         for key in matched_dict:
@@ -291,7 +299,7 @@ def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=Non
             file_array_new = []
 
             if (verbose):
-                sg.cprint(f"{tail}:", c = 'white on green')
+                sg.cprint(f"{tail}:", c='white on green')
             try:
                 for _match in matched_dict[key]:
                     line_num_match = get_line_number(key, _match)
@@ -307,7 +315,6 @@ def find_in_file(string, demo_files_dict, regex=False, verbose=False, window=Non
 
     file_list = list(set(file_list))
     return file_list
-
 
 
 def settings_window():
@@ -328,25 +335,27 @@ def settings_window():
         global_explorer = sg.pysimplegui_user_settings.get('-explorer program-')
     except:
         global_explorer = ''
-    try:    # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
+    try:  # in case running with old version of PySimpleGUI that doesn't have a global PSG settings path
         global_theme = sg.theme_global()
     except:
         global_theme = ''
 
     layout = [[sg.T('Program Settings', font='DEFAULT 25')],
-              [sg.T('Path to Tree',  font='_ 16')],
-               [sg.Combo(sorted(sg.user_settings_get_entry('-folder names-', [])), default_value=sg.user_settings_get_entry('-demos folder-', get_demo_path()), size=(50, 1), key='-FOLDERNAME-'),
+              [sg.T('Path to Tree', font='_ 16')],
+              [sg.Combo(sorted(sg.user_settings_get_entry('-folder names-', [])),
+                        default_value=sg.user_settings_get_entry('-demos folder-', get_demo_path()), size=(50, 1),
+                        key='-FOLDERNAME-'),
                sg.FolderBrowse('Folder Browse', target='-FOLDERNAME-'), sg.B('Clear History')],
-              [sg.T('Editor Program',  font='_ 16')],
+              [sg.T('Editor Program', font='_ 16')],
               [sg.T('Leave blank to use global default'), sg.T(global_editor)],
-                [ sg.In(sg.user_settings_get_entry('-editor program-', ''),k='-EDITOR PROGRAM-'), sg.FileBrowse()],
-              [sg.T('File Explorer Program',  font='_ 16')],
+              [sg.In(sg.user_settings_get_entry('-editor program-', ''), k='-EDITOR PROGRAM-'), sg.FileBrowse()],
+              [sg.T('File Explorer Program', font='_ 16')],
               [sg.T('Leave blank to use global default'), sg.T(global_explorer)],
-              [ sg.In(sg.user_settings_get_entry('-explorer program-'), k='-EXPLORER PROGRAM-'), sg.FileBrowse()],
-               [sg.T('Theme', font='_ 16')],
+              [sg.In(sg.user_settings_get_entry('-explorer program-'), k='-EXPLORER PROGRAM-'), sg.FileBrowse()],
+              [sg.T('Theme', font='_ 16')],
               [sg.T('Leave blank to use global default'), sg.T(global_theme)],
-              [sg.Combo(['']+sg.theme_list(),sg.user_settings_get_entry('-theme-', ''), readonly=True,  k='-THEME-')],
-              [sg.CB('Use Advanced Interface', default=advanced_mode() ,k='-ADVANCED MODE-')],
+              [sg.Combo([''] + sg.theme_list(), sg.user_settings_get_entry('-theme-', ''), readonly=True, k='-THEME-')],
+              [sg.CB('Use Advanced Interface', default=advanced_mode(), k='-ADVANCED MODE-')],
               [sg.B('Ok', bind_return_key=True), sg.B('Cancel')],
               ]
 
@@ -362,7 +371,8 @@ def settings_window():
             sg.user_settings_set_entry('-demos folder-', values['-FOLDERNAME-'])
             sg.user_settings_set_entry('-editor program-', values['-EDITOR PROGRAM-'])
             sg.user_settings_set_entry('-theme-', values['-THEME-'])
-            sg.user_settings_set_entry('-folder names-', list(set(sg.user_settings_get_entry('-folder names-', []) + [values['-FOLDERNAME-'], ])))
+            sg.user_settings_set_entry('-folder names-', list(
+                set(sg.user_settings_get_entry('-folder names-', []) + [values['-FOLDERNAME-'], ])))
             sg.user_settings_set_entry('-explorer program-', values['-EXPLORER PROGRAM-'])
             sg.user_settings_set_entry('-advanced mode-', values['-ADVANCED MODE-'])
             settings_changed = True
@@ -375,7 +385,9 @@ def settings_window():
     window.close()
     return settings_changed
 
-ML_KEY = '-ML-'         # Multline's key
+
+ML_KEY = '-ML-'  # Multline's key
+
 
 # --------------------------------- Create the window ---------------------------------
 def make_window():
@@ -394,37 +406,47 @@ def make_window():
     filter_tooltip = "Filter files\nEnter a string in box to narrow down the list of files.\nFile list will update with list of files with string in filename."
     find_re_tooltip = "Find in file using Regular Expression\nEnter a string in box to search for string inside of the files.\nSearch is performed after clicking the FindRE button."
 
-
     left_col = sg.Col([
         [sg.Listbox(values=get_file_list(), select_mode=sg.SELECT_MODE_EXTENDED, size=(50, 20), key='-DEMO LIST-')],
-        [sg.Text('Filter:', tooltip=filter_tooltip), sg.Input(size=(25, 1), enable_events=True, key='-FILTER-', tooltip=filter_tooltip),
-         sg.T(size=(15,1), k='-FILTER NUMBER-')],
+        [sg.Text('Filter:', tooltip=filter_tooltip),
+         sg.Input(size=(25, 1), enable_events=True, key='-FILTER-', tooltip=filter_tooltip),
+         sg.T(size=(15, 1), k='-FILTER NUMBER-')],
         [sg.Button('Run'), sg.B('Edit'), sg.B('Clear'), sg.B('Open Folder')],
-        [sg.Text('Find:', tooltip=find_tooltip), sg.Input(size=(25, 1), enable_events=True, key='-FIND-', tooltip=find_tooltip),
-         sg.T(size=(15,1), k='-FIND NUMBER-')],
+        [sg.Text('Find:', tooltip=find_tooltip),
+         sg.Input(size=(25, 1), enable_events=True, key='-FIND-', tooltip=find_tooltip),
+         sg.T(size=(15, 1), k='-FIND NUMBER-')],
     ], element_justification='l')
 
     lef_col_find_re = sg.pin(sg.Col([
-        [sg.Text('Find:', tooltip=find_re_tooltip), sg.Input(size=(25, 1),key='-FIND RE-', tooltip=find_re_tooltip),sg.B('Find RE')]], k='-RE COL-'))
+        [sg.Text('Find:', tooltip=find_re_tooltip), sg.Input(size=(25, 1), key='-FIND RE-', tooltip=find_re_tooltip),
+         sg.B('Find RE')]], k='-RE COL-'))
 
     right_col = [
         [sg.Multiline(size=(70, 21), write_only=True, key=ML_KEY, reroute_stdout=True, echo_stdout_stderr=True)],
         [sg.Button('Edit Me (this program)'), sg.B('Settings'), sg.Button('Exit')],
-        [sg.T('PySimpleGUI ver ' + sg.version.split(' ')[0] + '  tkinter ver ' + sg.tclversion_detailed, font='Default 8', pad=(0,0))],
+        [sg.T('PySimpleGUI ver ' + sg.version.split(' ')[0] + '  tkinter ver ' + sg.tclversion_detailed,
+              font='Default 8', pad=(0, 0))],
     ]
 
     options_at_bottom = sg.pin(sg.Column([[sg.CB('Verbose', enable_events=True, k='-VERBOSE-'),
-                         sg.CB('Show only first match in file', default=True, enable_events=True, k='-FIRST MATCH ONLY-'),
-                         sg.CB('Find ignore case', default=True, enable_events=True, k='-IGNORE CASE-'),
-                         sg.T('<---- NOTE: Only the "Verbose" setting is implemented at this time')]], pad=(0,0), k='-OPTIONS BOTTOM-'))
+                                           sg.CB('Show only first match in file', default=True, enable_events=True,
+                                                 k='-FIRST MATCH ONLY-'),
+                                           sg.CB('Find ignore case', default=True, enable_events=True,
+                                                 k='-IGNORE CASE-'),
+                                           sg.T('<---- NOTE: Only the "Verbose" setting is implemented at this time')]],
+                                         pad=(0, 0), k='-OPTIONS BOTTOM-'))
 
-    choose_folder_at_top = sg.pin(sg.Column([[sg.T('Click settings to set top of your tree or choose a previously chosen folder'),
-                                       sg.Combo(sorted(sg.user_settings_get_entry('-folder names-', [])), default_value=sg.user_settings_get_entry('-demos folder-', ''), size=(50, 1), key='-FOLDERNAME-', enable_events=True, readonly=True)]], pad=(0,0), k='-FOLDER CHOOSE-'))
+    choose_folder_at_top = sg.pin(
+        sg.Column([[sg.T('Click settings to set top of your tree or choose a previously chosen folder'),
+                    sg.Combo(sorted(sg.user_settings_get_entry('-folder names-', [])),
+                             default_value=sg.user_settings_get_entry('-demos folder-', ''), size=(50, 1),
+                             key='-FOLDERNAME-', enable_events=True, readonly=True)]], pad=(0, 0), k='-FOLDER CHOOSE-'))
     # ----- Full layout -----
 
     layout = [[sg.Text('PySimpleGUI Demo Program & Project Browser', font='Any 20')],
               [choose_folder_at_top],
-              sg.vtop([sg.Column([[left_col],[ lef_col_find_re]], element_justification='l'), sg.Col(right_col, element_justification='c') ]),
+              sg.vtop([sg.Column([[left_col], [lef_col_find_re]], element_justification='l'),
+                       sg.Col(right_col, element_justification='c')]),
               [options_at_bottom]
               ]
 
@@ -474,7 +496,7 @@ def main():
             sg.cprint('')
             for file in values['-DEMO LIST-']:
                 file_to_run = str(file_list_dict[file])
-                sg.cprint(file_to_run,text_color='white', background_color='purple')
+                sg.cprint(file_to_run, text_color='white', background_color='purple')
                 execute_py_file(f'{file_to_run}')
         elif event.startswith('Edit Me'):
             editor_program = get_editor()
@@ -502,13 +524,19 @@ def main():
                 if find_in_file.old_file_list is None or old_typed_value is None or old_ignore_case is not is_ignore_case:
                     # New search.
                     old_typed_value = current_typed_value
-                    file_list = find_in_file(values['-FIND-'], get_file_list_dict(), verbose=values['-VERBOSE-'], window=window, ignore_case=is_ignore_case, show_first_match=values['-FIRST MATCH ONLY-'])
+                    file_list = find_in_file(values['-FIND-'], get_file_list_dict(), verbose=values['-VERBOSE-'],
+                                             window=window, ignore_case=is_ignore_case,
+                                             show_first_match=values['-FIRST MATCH ONLY-'])
                 elif current_typed_value.startswith(old_typed_value) and old_ignore_case is is_ignore_case:
                     old_typed_value = current_typed_value
-                    file_list = find_in_file(values['-FIND-'], find_in_file.old_file_list, verbose=values['-VERBOSE-'], window=window, ignore_case=is_ignore_case, show_first_match=values['-FIRST MATCH ONLY-'])
+                    file_list = find_in_file(values['-FIND-'], find_in_file.old_file_list, verbose=values['-VERBOSE-'],
+                                             window=window, ignore_case=is_ignore_case,
+                                             show_first_match=values['-FIRST MATCH ONLY-'])
                 else:
                     old_typed_value = current_typed_value
-                    file_list = find_in_file(values['-FIND-'], get_file_list_dict(), verbose=values['-VERBOSE-'], window=window, ignore_case=is_ignore_case, show_first_match=values['-FIRST MATCH ONLY-'])
+                    file_list = find_in_file(values['-FIND-'], get_file_list_dict(), verbose=values['-VERBOSE-'],
+                                             window=window, ignore_case=is_ignore_case,
+                                             show_first_match=values['-FIRST MATCH ONLY-'])
                 window['-DEMO LIST-'].update(sorted(file_list))
                 window['-FIND NUMBER-'].update(f'{len(file_list)} files')
                 window['-FILTER NUMBER-'].update('')
@@ -516,7 +544,8 @@ def main():
                 window['-FILTER-'].update('')
             elif values['-FIND RE-']:
                 window['-ML-'].update('')
-                file_list = find_in_file(values['-FIND RE-'], get_file_list_dict(), regex=True, verbose=values['-VERBOSE-'],window=window)
+                file_list = find_in_file(values['-FIND RE-'], get_file_list_dict(), regex=True,
+                                         verbose=values['-VERBOSE-'], window=window)
                 window['-DEMO LIST-'].update(sorted(file_list))
                 window['-FIND NUMBER-'].update(f'{len(file_list)} files')
                 window['-FILTER NUMBER-'].update('')
@@ -524,7 +553,8 @@ def main():
                 window['-FILTER-'].update('')
         elif event == 'Find RE':
             window['-ML-'].update('')
-            file_list = find_in_file(values['-FIND RE-'], get_file_list_dict(), regex=True, verbose=values['-VERBOSE-'],window=window)
+            file_list = find_in_file(values['-FIND RE-'], get_file_list_dict(), regex=True, verbose=values['-VERBOSE-'],
+                                     window=window)
             window['-DEMO LIST-'].update(sorted(file_list))
             window['-FIND NUMBER-'].update(f'{len(file_list)} files')
             window['-FILTER NUMBER-'].update('')
@@ -573,6 +603,7 @@ def main():
 
     window.close()
 
+
 try:
     execute_py_file = sg.execute_py_file
 except:
@@ -590,7 +621,8 @@ except:
             arg_string = ''
             for arg in args:
                 arg_string += ' ' + str(arg)
-            sp = subprocess.Popen(str(command) + arg_string, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd)
+            sp = subprocess.Popen(str(command) + arg_string, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                                  cwd=cwd)
         else:
             expanded_args = ' '.join(args)
             sp = subprocess.Popen([command, *args], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd)
@@ -601,11 +633,9 @@ except:
             if err:
                 print(err.decode("utf-8"))
 
-
 if __name__ == '__main__':
     # https://www.vecteezy.com/free-vector/idea-bulb is where I got the icon
 
     icon = b'iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAAK/2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4NCjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDA3IDEuMTM2ODgxLCAyMDEwLzA2LzEwLTE4OjExOjM1ICAgICAgICAiPg0KICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPg0KICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06RG9jdW1lbnRJRD0iRUM4REZFNUEyMEM0QjcwMzFBMjNBRDA4NENCNzZCODAiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0iRUM4REZFNUEyMEM0QjcwMzFBMjNBRDA4NENCNzZCODAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUVBNkIyNzA3NjYyRTkxMThDQzNFODdFN0ZEQTgwNTEiIGRjOmZvcm1hdD0iaW1hZ2UvanBlZyIgeG1wOlJhdGluZz0iNSIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOS0wNC0xOVQxMjoxMTozOSswNDozMCI+DQogICAgICA8eG1wTU06SGlzdG9yeT4NCiAgICAgICAgPHJkZjpTZXE+DQogICAgICAgICAgPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOkYwNjRBQzcwNzY2MkU5MTFBNkU1QzYwODhFRTUxMzM5IiBzdEV2dDp3aGVuPSIyMDE5LTA0LTE5VDEyOjExOjM5KzA0OjMwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ2FtZXJhIFJhdyA3LjAiIHN0RXZ0OmNoYW5nZWQ9Ii9tZXRhZGF0YSIgLz4NCiAgICAgICAgICA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6OUVBNkIyNzA3NjYyRTkxMThDQzNFODdFN0ZEQTgwNTEiIHN0RXZ0OndoZW49IjIwMTktMDQtMTlUMTI6MTE6MzkrMDQ6MzAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDYW1lcmEgUmF3IDcuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii9tZXRhZGF0YSIgLz4NCiAgICAgICAgPC9yZGY6U2VxPg0KICAgICAgPC94bXBNTTpIaXN0b3J5Pg0KICAgICAgPGRjOnRpdGxlPg0KICAgICAgICA8cmRmOkFsdD4NCiAgICAgICAgICA8cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPkJ1bGIgSWNvbiBEZXNpZ248L3JkZjpsaT4NCiAgICAgICAgPC9yZGY6QWx0Pg0KICAgICAgPC9kYzp0aXRsZT4NCiAgICAgIDxkYzpjcmVhdG9yPg0KICAgICAgICA8cmRmOlNlcT4NCiAgICAgICAgICA8cmRmOmxpPklZSUtPTjwvcmRmOmxpPg0KICAgICAgICA8L3JkZjpTZXE+DQogICAgICA8L2RjOmNyZWF0b3I+DQogICAgICA8ZGM6ZGVzY3JpcHRpb24+DQogICAgICAgIDxyZGY6QWx0Pg0KICAgICAgICAgIDxyZGY6bGkgeG1sOmxhbmc9IngtZGVmYXVsdCI+QnVsYiBJY29uIERlc2lnbg0KPC9yZGY6bGk+DQogICAgICAgIDwvcmRmOkFsdD4NCiAgICAgIDwvZGM6ZGVzY3JpcHRpb24+DQogICAgICA8ZGM6c3ViamVjdD4NCiAgICAgICAgPHJkZjpCYWc+DQogICAgICAgICAgPHJkZjpsaT5idWxiPC9yZGY6bGk+DQogICAgICAgICAgPHJkZjpsaT5lbmVyZ3k8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmlkZWE8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmxpZ2h0PC9yZGY6bGk+DQogICAgICAgICAgPHJkZjpsaT5saWdodGJ1bGI8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmJ1bGIgaWNvbjwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+ZW5lcmd5IGljb248L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmlkZWEgaWNvbjwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+bGlnaHQgaWNvbjwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+bGlnaHRidWxiIGljb248L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmljb248L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmlsbHVzdHJhdGlvbjwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+ZGVzaWduPC9yZGY6bGk+DQogICAgICAgICAgPHJkZjpsaT5zaWduPC9yZGY6bGk+DQogICAgICAgICAgPHJkZjpsaT5zeW1ib2w8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmdyYXBoaWM8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmxpbmU8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmxpbmVhcjwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+b3V0bGluZTwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+ZmxhdDwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+Z2x5cGg8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPmdyYWRpZW50PC9yZGY6bGk+DQogICAgICAgICAgPHJkZjpsaT5jaXJjbGU8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPnNoYWRvdzwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+bG93IHBvbHk8L3JkZjpsaT4NCiAgICAgICAgICA8cmRmOmxpPnBvbHlnb25hbDwvcmRmOmxpPg0KICAgICAgICAgIDxyZGY6bGk+c3F1YXJlPC9yZGY6bGk+DQogICAgICAgIDwvcmRmOkJhZz4NCiAgICAgIDwvZGM6c3ViamVjdD4NCiAgICA8L3JkZjpEZXNjcmlwdGlvbj4NCiAgPC9yZGY6UkRGPg0KPC94OnhtcG1ldGE+DQo8P3hwYWNrZXQgZW5kPSJyIj8+ncdlNwAABG5JREFUWMPtV2tMk1cYfr6vINBRKpVLpVIuGZfOjiARochYO/EyMWHDjOIYYSyQ6MaignEkEgJLyNxMRthmJBkalKmgUacsjMiCBRFWqKsBFJEwtkILLYxBuQi0/c5+sE5mJmvBxR/zJO+fc877vE/ey5NzKEIInuWi8YzXcwIrInCtuirlWnVVykowHGy9qFYqo+bn5pyj4uIarXtBope6H7+nbGp6dZWT0+yGqCjlUyUQEBTUW15SkiOOiLj9/eXLu1sVN6Q6jUYIAD5CoUYilSleT0q6dLO+fmvmwYOfP/UScN3df+cLBIPvbN92fWpijJedtk5XWQT6TM5PkR9Izrw72ZpRkRrr/yvfhz/MXe02aSsuZYsOMAxDH87MPMlfJxjcn7OnitWReg7GjrDH75ktQGkVMDz/csdnFReSWZzgnmVnwGwyOSbLpI1davWGY/n5xaFhYR2HPko/zWrb0vBPwQHAgQXkpgKhvM6wY+/HNXU1X0xOlkkbzSaT4xMZEEKeaDPT02xVy62YrKQ3rxDGQltubmq31NDEFsuUUKTthPjezNQkZ6kYS/aAC5s9U1lWti+36OMCMvxtEsZVG22tbU4qhW8u3hU5G69vX3YTMgxDD/T3B4SIxZ1EVyW3Z75D/IABPcBoq+XLJjA0MOArDAj4GQAwcSfCXpERegO6PnXEsglMTU1xXN3cjAtdaXSz7s/MAl19gHZKqNGOAF0634GZOQcz3GNaF/u7soHpyUd+dhPw8PQ06HVDPgAA57W6v2aXAgrKCBrazKyGzrVDBSfmHSn/vWXU6si2xf6GMWCN9yM/u5VwjZeXYdSg9559+JDt5LWzlvw5fi5OQFoChS+qtAK88GLv/rzs4+zASBVpkd2w+s7OASPjgEfQztoVCdH5k+WZo3q994e5WV8zivXdMI3xFsYX2H2YAC4C7ZXbGl/SvqsWhrodVr+vLgAeXryxt4vviuDkZVi2FMsz3julutWyuV31IJgKr0gHxbJYyyDfRkH+ik6AcWX04uDt9wDVfdoiP1SRvlRwmwjQNM2UVlamfZKXd7T3t4B+SvxltvWMRS8YmDkn616vBvj0NFB66ng2i5/w3b+OylIqtdi0Go0wMUbSOjQ4KGB6CossNTSpPrBgzKhCaqmhibaCJokiigw2FxbZimszAUIIutTq8D3xW36wmE0OFmVC7WICpqs0SQmnSOf5hFpCGMpWTAd7hGV9ePgdiVSmyNu7r8zPx3egU7XQwCOl51J/URJItr5xVZxYcgCgbH9q25MBQgiM4+NcmUjUrair23FJFtt81hnkrDPIZhZIf37eUXvx7H4TcrjcCZ6nx0hsfHx9nEzWsJEGImiAC8B1leP8f/Ym/JvEctwm5a/JFMyQzsc0T4EBwIuK/pGbkVVuN5i9KSOE4C2ZVMFYLPRI4ZHiHjbIfTbILhbISOGRYnuxqOV8zaL9/TR+gYF98w96Qs3DQ3wA0HO4xmalctOq4JAee7Co53/D/z2BPwAlMRlLdQS6SQAAAABJRU5ErkJggg=='
-
 
     main()
