@@ -11,7 +11,7 @@
 
     Color is one of: Black, Blue, Green, Teal, Brown, Yellow, Gray, Purple
 
-    http://www.PySimpleGUI.org
+    https://www.pysimplegui.org/en/latest/#themes-automatic-coloring-of-your-windows
 
     you can call in the terminal: psgdemos, psgmain
 """

@@ -10,7 +10,7 @@ popup_get_file
 popup_get_folder
 popup_get_text
 
-http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/#high-level-api-calls-popups
 """
 import PySimpleGUI as sg
 

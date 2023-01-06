@@ -7,7 +7,7 @@ There are 4 popups that collect user input
     popup_get_foloder
     popup_get_text
 
-    http://www.PySimpleGUI.org
+    https://www.pysimplegui.org/en/latest/#high-level-api-calls-popups
 """
 import PySimpleGUI as sg
 

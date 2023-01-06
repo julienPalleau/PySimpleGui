@@ -46,7 +46,7 @@
     dot                     lr_angle        shuttle
 
 
-    http://www.PySimpleGUI.org
+    https://www.pysimplegui.org/en/latest/call%20reference/
 """
 
 import PySimpleGUI as sg

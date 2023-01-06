@@ -53,7 +53,7 @@ CamelCase =
 snake_case = variables, funcs
 
 
-    http://www.PySimpleGUI.org
+    https://www.pysimplegui.org/en/latest/#elements
 """
 import PySimpleGUI as sg
 # sg.main_sdk_help() # the shortcut is at the end of each section i.e Button Input Multiline etc...

@@ -3,7 +3,7 @@ The official python GUI programming with PySimpleGUI Course
 
 The PySimpleGui Ports
 
-    http://www.PySimpleGUI.org
+   https://www.pysimplegui.org/en/latest/#the-ports
 """
 
 import PySimpleGUI as sg

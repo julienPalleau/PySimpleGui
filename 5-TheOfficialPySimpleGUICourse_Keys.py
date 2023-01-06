@@ -24,6 +24,7 @@ Downside to finding element is missing auto-completion in PyCharm
     Saving variable with element definition gets around this
 
 you can call in the terminal: psgdemos, psgmain
+https://www.pysimplegui.org/en/latest/#keys
 """
 
 import PySimpleGUI as sg
