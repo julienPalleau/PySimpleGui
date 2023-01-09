@@ -28,8 +28,33 @@ window.close()
 """
 import PySimpleGUI as sg
 
-import PySimpleGUI as sg
+# # Solution 1:
+#
+# layout = [  [sg.Text('Prime Numbers 2 to 500')],
+#             [sg.Multiline(size=(10, 25), write_only=True, key='-MLINE-')],
+#             [sg.Button('Start')]  ]
+#
+# window = sg.Window('Prime Numbers 2 to 500', layout)
+#
+# while True:
+#     event, values = window.read()
+#     if event == sg.WIN_CLOSED:
+#         break
+#     if event == 'Start':
+#         for num in range(2, 501):
+#             prime=True
+#             for i in range(2, num):
+#                 if (num % i) == 0:
+#                     prime = False
+#                     break
+#             if prime:
+#                 window['-MLINE-'].print(num, colors='white on red')
+#             else:
+#                 window['-MLINE-'].print(num)
+#
+# window.close()
 
+# Solution 2:
 layout = [  [sg.Text('Prime Numbers 2 to 500')],
             [sg.Multiline(size=(10, 25), write_only=True, key='-MLINE-')],
             [sg.Button('Start')]  ]
@@ -42,15 +67,10 @@ while True:
         break
     if event == 'Start':
         for num in range(2, 501):
-            prime=True
             for i in range(2, num):
                 if (num % i) == 0:
-                    prime = False
+                    window['-MLINE-'].print(num)
                     break
-            if prime:
+            else:   # executed if the for loop completed NORMALLY (no break statement)
                 window['-MLINE-'].print(num, colors='white on red')
-            else:
-                window['-MLINE-'].print(num)
-
 window.close()
-
