@@ -43,14 +43,14 @@ while True:
 window.close()
 """
 # import PySimpleGUI as sg
-
+#
 # toppings = ['Cheese', 'Lettuce', 'Tomato', 'Pickles', 'Onions', 'Ketchup', 'Mayonnaise', 'Mustard']
 #
 # # You can start with this layout as a guide to the first and last rows
 # # Your exercise is to fill in the middle part of the window's layout
 # # Note - you do not have to start with this exact code. You can build a layout similar to it instead
 # layout = [[sg.Text('Hamburger Toppings', font='Default 15')],
-#           [sg.Button('Place Order'), sg.Button('Clear')], [sg.Checkbox(elmt) for elmt in toppings]]
+#           [sg.Button('Place Order'), sg.Button('Clear')], [[sg.Checkbox(elmt, key=elmt)] for elmt in toppings]]
 #
 #
 # window = sg.Window('Food Order GUI', layout)
@@ -76,10 +76,9 @@ import PySimpleGUI as sg
 
 toppings = ['Cheese', 'Lettuce', 'Tomato', 'Pickles', 'Onions', 'Ketchup', 'Mayonnaise', 'Mustard']
 
-layout = [  [sg.Text('Hamburger Toppings', font='Default 15')],
-            [[sg.Checkbox(topping, key=topping)] for topping in toppings],
-            [sg.Button('Place Order'), sg.Button('Clear')]]
-
+layout = [[sg.Text('Hamburger Toppings', font='Default 15')],
+          [[sg.Checkbox(topping, key=topping)] for topping in toppings],
+          [sg.Button('Place Order'), sg.Button('Clear')]]
 
 window = sg.Window('Food Order GUI', layout)
 
