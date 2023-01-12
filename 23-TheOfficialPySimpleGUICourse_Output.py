@@ -13,34 +13,32 @@ import PySimpleGUI as sg
 
 sg.set_options(font='Default 18')
 
-example_number = 2
+example_number = 1
+
 
 # ================================== 1 - Basic "print" EXAMPLE =========================================================
 
-# def main_output():
-#     layout = [[sg.T('Text Output Using Output Element')],
-#               [sg.Output(size=(40, 15), echo_stdout_stderr=True, k='-OUTPUT-'),
-#                sg.B('Go'), sg.B('Erase'), sg.B('Crash'), sg.B('Exit')]]
-#
-#     window = sg.Window('Multiline Output', layout, keep_on_top=True)
-#
-#     while True:  # Event Loop
-#         event, values = window.read()
-#         print(event, values)
-#         if event == sg.WIN_CLOSED or event == 'Exit':
-#             break
-#
-#         if event == 'Erase':
-#             window['-OUTPUT-'].update('')
-#         elif event == 'Crash':
-#             sg.bad_call()
-#     window.close()
-#
-#
-# if __name__ == "__main__":
-#     main_output()
+def main_output():
+    layout = [[sg.T('Text Output Using Output Element')],
+              [sg.Output(size=(40, 15), echo_stdout_stderr=True, k='-OUTPUT-'),
+               sg.B('Go'), sg.B('Erase'), sg.B('Crash'), sg.B('Exit')]]
 
-# ================================== 1 - print FROM THREAD EXAMPLE =====================================================
+    window = sg.Window('Multiline Output', layout, keep_on_top=True)
+
+    while True:  # Event Loop
+        event, values = window.read()
+        print(event, values)
+        if event == sg.WIN_CLOSED or event == 'Exit':
+            break
+
+        if event == 'Erase':
+            window['-OUTPUT-'].update('')
+        elif event == 'Crash':
+            sg.bad_call()
+    window.close()
+
+
+# ================================== 2 - print FROM THREAD EXAMPLE =====================================================
 import time
 
 
@@ -74,4 +72,7 @@ def main_output_with_thread():
 
 
 if __name__ == "__main__":
-    main_output_with_thread()
+    examples = [main_output, main_output_with_thread]
+    print(examples[example_number - 1].__name__)
+
+    examples[example_number - 1]()

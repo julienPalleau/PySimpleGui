@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/25-TheOfficialPySimpleGUICourse_Radio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pySimpleGui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pySimpleGui.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-Exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/24-Exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-TheOfficialPySimpleGUICourse_MultilineInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/21-TheOfficialPySimpleGUICourse_MultilineInput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22-TheOfficialPySimpleGUICourse_MultilineOutput.py" beforeDir="false" afterPath="$PROJECT_DIR$/22-TheOfficialPySimpleGUICourse_MultilineOutput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" beforeDir="false" afterPath="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +50,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pySimpleGuiBackup" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.24-Exercises">
-    <configuration name="10-TheOfficilaPySimpleGUICourse_UpdateMethod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pySimpleGui" />
+  <component name="RunManager" selected="Python.25-TheOfficialPySimpleGUICourse_Radio">
+    <configuration name="18-TheOfficialPySimpleGUICourse_DatePopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -65,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-TheOfficilaPySimpleGUICourse_UpdateMethod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18-TheOfficialPySimpleGUICourse_DatePopup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,8 +80,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="23-Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pySimpleGui" />
+    <configuration name="20-TheOfficialPySimpleGUICourse_Input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -86,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23-Exercises.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20-TheOfficialPySimpleGUICourse_Input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,8 +101,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="23-TheOfficialPySimpleGUICourse_Output" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pySimpleGui" />
+    <configuration name="21-TheOfficialPySimpleGUICourse_MultilineInput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -107,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21-TheOfficialPySimpleGUICourse_MultilineInput.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,8 +122,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="24-Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pySimpleGui" />
+    <configuration name="22-TheOfficialPySimpleGUICourse_MultilineOutput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -128,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24-Exercises.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22-TheOfficialPySimpleGUICourse_MultilineOutput.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,8 +143,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="24-TheOfficialPySimpleGUICourse_CheckBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pySimpleGui" />
+    <configuration name="25-TheOfficialPySimpleGUICourse_Radio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -149,7 +155,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25-TheOfficialPySimpleGUICourse_Radio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="25-TheOfficialPySimpleGUICourse_Radio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui\25-TheOfficialPySimpleGUICourse_Radio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.24-Exercises" />
-        <item itemvalue="Python.10-TheOfficilaPySimpleGUICourse_UpdateMethod" />
-        <item itemvalue="Python.24-TheOfficialPySimpleGUICourse_CheckBox" />
-        <item itemvalue="Python.23-Exercises" />
-        <item itemvalue="Python.23-TheOfficialPySimpleGUICourse_Output" />
+        <item itemvalue="Python.25-TheOfficialPySimpleGUICourse_Radio" />
+        <item itemvalue="Python.18-TheOfficialPySimpleGUICourse_DatePopup" />
+        <item itemvalue="Python.20-TheOfficialPySimpleGUICourse_Input" />
+        <item itemvalue="Python.21-TheOfficialPySimpleGUICourse_MultilineInput" />
+        <item itemvalue="Python.22-TheOfficialPySimpleGUICourse_MultilineOutput" />
       </list>
     </recent_temporary>
   </component>
