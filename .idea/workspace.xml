@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/27-Exercices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28-Exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" beforeDir="false" afterPath="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-TheOfficialPySimpleGUICourse_Themes.py" beforeDir="false" afterPath="$PROJECT_DIR$/7-TheOfficialPySimpleGUICourse_Themes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +53,8 @@
       <recent name="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.27-Exercices">
-    <configuration name="26-Exercices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.28-Exercises">
+    <configuration name="16-TheOfficialSimpleGuiCourse_InputPopup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +66,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26-Exercices.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16-TheOfficialSimpleGuiCourse_InputPopup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20-TheOfficialPySimpleGUICourse_Input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20-TheOfficialPySimpleGUICourse_Input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="27-TheOfficialPySimpleGUICourse_ComboOption" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="28-Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28-Exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7-TheOfficialPySimpleGUICourse_Themes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="28-TheOfficialPySimpleGUICourse_Listbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,28 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7-TheOfficialPySimpleGUICourse_Themes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="8-TheOfficialSimpleGuiCourse_CommonParameters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-TheOfficialSimpleGuiCourse_CommonParameters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.28-Exercises" />
+        <item itemvalue="Python.20-TheOfficialPySimpleGUICourse_Input" />
+        <item itemvalue="Python.16-TheOfficialSimpleGuiCourse_InputPopup" />
+        <item itemvalue="Python.28-TheOfficialPySimpleGUICourse_Listbox" />
         <item itemvalue="Python.27-Exercices" />
-        <item itemvalue="Python.27-TheOfficialPySimpleGUICourse_ComboOption" />
-        <item itemvalue="Python.8-TheOfficialSimpleGuiCourse_CommonParameters" />
-        <item itemvalue="Python.7-TheOfficialPySimpleGUICourse_Themes" />
-        <item itemvalue="Python.26-Exercices" />
       </list>
     </recent_temporary>
   </component>
