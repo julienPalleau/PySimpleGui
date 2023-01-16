@@ -18,6 +18,7 @@
 
 import PySimpleGUI as sg
 
+
 def make_window():
     layout = [[sg.Text('My Window')],
               [sg.Input(key='-IN-')],
@@ -26,6 +27,7 @@ def make_window():
 
     window = sg.Window('Window Title', layout, keep_on_top=True)
     return window
+
 
 def main():
     sg.set_options(font='Default 18')
@@ -48,9 +50,7 @@ def main():
 
     window = make_window()
 
-
-
-    while True:             # Event Loop
+    while True:  # Event Loop
         event, values = window.read()
         print(event, values)
         if event == sg.WIN_CLOSED or event == 'Exit':

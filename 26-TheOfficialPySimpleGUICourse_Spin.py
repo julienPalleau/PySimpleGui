@@ -60,5 +60,5 @@ def main_mixed():
 
 
 if __name__ == "__main__":
-    example = [main_spin, main_mixed()]
+    example = [main_spin, main_mixed]
     example[example_number - 1]()
