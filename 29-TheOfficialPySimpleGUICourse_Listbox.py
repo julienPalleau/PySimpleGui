@@ -75,7 +75,7 @@ sg.set_options(font='Default 14')
 
 # ==================================== 2 - Qt Basic Slider EXAMPLE =====================================================
 
-import PySimpleGUI as sg
+import PySimpleGUIQt as sg
 
 
 def main_slider_qt():
