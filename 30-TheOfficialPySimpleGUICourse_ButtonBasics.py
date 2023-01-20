@@ -43,7 +43,7 @@ def main_button_lessons():
     window.close()
 
 
-# ============================= 2 - Basic Button Lessons ===============================================================
+# ============================= 2 - Basic Button EXAMPLE ===============================================================
 def main_button():
     sg.Print('', font='Default 28', keep_on_top=True, size=(30, 14), location=(1700, 350))
 
@@ -105,7 +105,7 @@ def main_button_bind():
     window.close()
 
 
-# ============================= 3 - Button Bind EXAMPLE ================================================================
+# ============================= 4 - Button Focus EXAMPLE ================================================================
 def main_button_focus():
     layout = [[sg.Text('Removing Focus From Buttons')],
               [sg.Button('Ok')]]
@@ -142,4 +142,4 @@ def main_button_grid():
 
 if __name__ == "__main__":
     example = [main_button_lessons, main_button, main_button_bind, main_button_focus, main_button_grid]
-    example[example_number]()
+    example[example_number - 1]()

@@ -23,11 +23,13 @@ def main_listbox():
     mixed_list = (1, 2, 3, 3.1415, sg.Text(), 'yellow + orange = amber')
 
     layout = [
-        [sg.T('SINGLE (default)' + ' ' * 35), sg.T('MULTIPLE''+' * 40), sg.T('BROWSE' + ' ' * 15),
-         sg.T('EXTENDED (best for multiple)')],
+        [sg.T('SINGLE (default)' + ' ')],
         [sg.Listbox(color_names, size=(25, 7), select_mode=sg.SELECT_MODE_SINGLE, enable_events=True, k='-LBOX1-')],
+        [sg.T('MULTIPLE''+')],
         [sg.Listbox(mixed_list, size=(25, 7), select_mode=sg.SELECT_MODE_MULTIPLE, enable_events=True, k='-LBOX2-')],
+        [sg.T('BROWSE' + ' ')],
         [sg.Listbox(mixed_list, size=(25, 7), select_mode=sg.SELECT_MODE_BROWSE, enable_events=True, k='-LBOX3-')],
+        [sg.T('EXTENDED (best for multiple)')],
         [sg.Listbox(mixed_list, size=(25, 7), select_mode=sg.SELECT_MODE_EXTENDED, no_scrollbar=True,
                     enable_events=True, k='-LBOX4-')],
         [sg.B('Go'), sg.B('Change'), sg.B('Exit')]
@@ -93,4 +95,4 @@ def main_listbox_filename():
 
 if __name__ == "__main__":
     example = [main_listbox, main_listbox_filename]
-    example[example_number]()
+    example[example_number - 1]()
