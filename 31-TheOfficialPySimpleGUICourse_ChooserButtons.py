@@ -82,7 +82,7 @@ def main_chooser_events():
 def main_popup_get_as_chooser():
     starting_value = ''
     layout = [
-        [sg.Input(size=(len(starting_value), 1), key='-IN1-', enable_events=True), sg.Button('Browse')],
+        [sg.Input(starting_value, size=(len(starting_value), 1), key='-IN1-', enable_events=True), sg.Button('Browse')],
         [sg.Input(k='-IN2-'), sg.Button('-Date1-')],
         [sg.T('Starting Year:'), sg.Input(size=(5, 1), k='-YEAR-')],
         [sg.Input(k='-IN3-'), sg.Button('-Date2-')],
