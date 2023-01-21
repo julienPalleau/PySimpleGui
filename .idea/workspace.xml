@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/32-Exercices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" beforeDir="false" afterPath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32-Exercices.py" beforeDir="false" afterPath="$PROJECT_DIR$/32-Exercices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,9 +182,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.32-Exercices" />
+        <item itemvalue="Python.32-TheOfficialPySimpleGUICourse_ImageButtons" />
         <item itemvalue="Python.27-TheOfficialPySimpleGUICourse_ComboOption" />
         <item itemvalue="Python.Demo_SDK_Help_Init_Update_Parms (1)" />
-        <item itemvalue="Python.32-TheOfficialPySimpleGUICourse_ImageButtons" />
         <item itemvalue="Python.Demo_Demo_Programs_Browser" />
       </list>
     </recent_temporary>
