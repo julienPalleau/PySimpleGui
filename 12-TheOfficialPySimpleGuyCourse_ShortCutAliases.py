@@ -56,6 +56,7 @@ snake_case = variables, funcs
     https://www.pysimplegui.org/en/latest/#elements
 """
 import PySimpleGUI as sg
+
 # sg.main_sdk_help() # the shortcut is at the end of each section i.e Button Input Multiline etc...
 
 # you can create your own shortcut
@@ -77,7 +78,7 @@ def main():
 
     window = sg.Window('Window Title', layout)
 
-    while True:     # Event loop
+    while True:  # Event loop
 
         # the two line below are the same the second line use a shortcut without .read()
         event, values = window.read()
@@ -92,6 +93,7 @@ def main():
         window['-OUT-'].update(f'You clikcked {event}')
 
     window.close()
+
 
 if __name__ == '__main__':
     main()

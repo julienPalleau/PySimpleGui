@@ -36,7 +36,6 @@ def main_file_folder_choosers():
             break
         sg.Print(f'event = {event}', c='white on red', erase_all=True)
         sg.Print(*[f' {k} = {values[k]}' for k in values], sep='\n')
-
     window.close()
 
 
@@ -81,14 +80,16 @@ def main_chooser_events():
 
 # ============================= 4 - Popups Instead of Choosers EXAMPLE =================================================
 def main_popup_get_as_chooser():
+    starting_value = ''
     layout = [
-        [sg.Input(k='-IN1-'), sg.Button('Browse')],
-        [sg.Input(k='-IN2-'), sg.Button('Date1')],
+        [sg.Input(size=(len(starting_value), 1), key='-IN1-', enable_events=True), sg.Button('Browse')],
+        [sg.Input(k='-IN2-'), sg.Button('-Date1-')],
         [sg.T('Starting Year:'), sg.Input(size=(5, 1), k='-YEAR-')],
-        [sg.Input(k='-IN3-'), sg.Button('Date2')],
+        [sg.Input(k='-IN3-'), sg.Button('-Date2-')],
         [sg.B('Go'), sg.B('Exit')]]
 
     window = sg.Window("Chooser Using Popups", layout, keep_on_top=True)
+
     while True:
         event, values = window.read()
         if event in (sg.WIN_CLOSED, 'Exit'):
@@ -98,11 +99,11 @@ def main_popup_get_as_chooser():
             filename = sg.popup_get_file('', no_window=True, keep_on_top=True)
             if filename is not None:
                 window['-IN1-'].update(filename)
-        elif event == 'Date1':
+        elif event == '-Date1-':
             date = sg.popup_get_date()
             if date is not None:
                 window['-IN2-'].update(date)
-        elif event == 'Date2':
+        elif event == '-Date2-':
             date = sg.popup_get_date(close_when_chosen=True, start_mon=1, start_day=1, start_year=int(values['-YEAR-']))
             if date is not None:
                 window['-IN3-'].update(date)
