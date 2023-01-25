@@ -49,17 +49,24 @@ import PySimpleGUI as sg
 
 
 def main():
+    # Add your Image Elements here
     layout = [[sg.Text('Media Player')],
-              # Add your Image Elements here
+              [sg.Image(play_image, subsample=3, enable_events=True, key='-PLAY-'),
+               sg.Image(stop_image, subsample=3, enable_events=True, key='-STOP-')],
               ]
 
     window = sg.Window('Media Player', layout)
 
     while True:
+        # Add your event handling here
         event, values = window.read()
         if event == sg.WIN_CLOSED:
             break
-        # Add your event handling here
+        if event == '-PLAY-':
+            sg.popup('Starting playback')
+        if event == '-STOP-':
+            sg.popup('Stopping playback')
+
 
     window.close()
 
