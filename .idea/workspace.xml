@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/29-Exercices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/35-Exercices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/35-TheOfficialPySimpleGUICourse_Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/36-Exercices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +53,8 @@
       <recent name="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.35-Exercices">
-    <configuration name="35-Exercices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.36-Exercices">
+    <configuration name="1-TheOfficialPySimpleGUICourse_Introduction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35-Exercices.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-TheOfficialPySimpleGUICourse_Introduction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="35-TheOfficialPySimpleGUICourse_Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="26-TheOfficialPySimpleGUICourse_Spin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35-TheOfficialPySimpleGUICourse_Menu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8-TheOfficialSimpleGuiCourse_CommonParameters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="27-TheOfficialPySimpleGUICourse_ComboOption" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-TheOfficialSimpleGuiCourse_CommonParameters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9-TheOfficialPySimpleGUICourse_CommonMethodsAndProperties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="36-Exercices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-TheOfficialPySimpleGUICourse_CommonMethodsAndProperties.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/36-Exercices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Demo_SDK_Help_Init_Update_Parms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="36-TheOfficialPySimpleGUICourse_ButtonMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo_SDK_Help_Init_Update_Parms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.35-Exercices" />
-        <item itemvalue="Python.9-TheOfficialPySimpleGUICourse_CommonMethodsAndProperties" />
-        <item itemvalue="Python.8-TheOfficialSimpleGuiCourse_CommonParameters" />
-        <item itemvalue="Python.35-TheOfficialPySimpleGUICourse_Menu" />
-        <item itemvalue="Python.Demo_SDK_Help_Init_Update_Parms" />
+        <item itemvalue="Python.36-Exercices" />
+        <item itemvalue="Python.36-TheOfficialPySimpleGUICourse_ButtonMenu" />
+        <item itemvalue="Python.27-TheOfficialPySimpleGUICourse_ComboOption" />
+        <item itemvalue="Python.26-TheOfficialPySimpleGUICourse_Spin" />
+        <item itemvalue="Python.1-TheOfficialPySimpleGUICourse_Introduction" />
       </list>
     </recent_temporary>
   </component>
