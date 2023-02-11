@@ -21,7 +21,7 @@ sg.set_options(font='Default 18', keep_on_top=True)
 sg.Print('', font='Default 18', size=(45, 8), location=(1980, 500))
 
 
-# ========================== 1 - Image Basic Operation EXAMPLE ==========================
+# =============================== 1 - Image Basic Operation EXAMPLE ====================================================
 
 def main_image():
     sg.theme('light green 3')

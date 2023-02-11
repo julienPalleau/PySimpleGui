@@ -89,7 +89,7 @@ def main():
         # Get the current date and time
         now = datetime.datetime.now()
         # Format datetime to HH:MM:SS
-        time_string = f'{now:%I}:{now:%M}:{now:%S}'
+        time_string = f'{now:%H}:{now:%M}:{now:%S}'
 
         for i, c in enumerate(time_string):
             window[('-IMAGE-', i)].update(base64_digits[c], subsample=subsample)
