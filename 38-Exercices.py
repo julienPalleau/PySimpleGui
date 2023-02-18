@@ -35,10 +35,10 @@ window.close()
 import PySimpleGUI as sg
 
 # Add your layout
-layout = [[sg.Listbox([1,2,3,4], size=(20, 10)),  sg.VerticalSeparator(), sg.Multiline(size=(30, 10))],\
-    [sg.HorizontalSeparator()],\
-    [sg.Multiline(size=(60, 10))],\
-    [sg.HorizontalSeparator()],\
+layout = [[sg.Listbox([1,2,3,4], size=(20, 10)),  sg.VerticalSeparator(), sg.Multiline(size=(30, 10))],
+    [sg.HorizontalSeparator()],
+    [sg.Multiline(size=(60, 10))],
+    [sg.HorizontalSeparator()],
     [sg.B('Exit')]
     ]
 window = sg.Window('Separator Elements', layout)
