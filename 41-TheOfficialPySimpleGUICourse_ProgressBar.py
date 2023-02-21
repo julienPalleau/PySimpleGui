@@ -17,7 +17,7 @@ if example_number:
     sg.Print('', font='Default 18', keep_on_top=True, size=(45, 8), location=(1000, 500))
 
 
-# ========================== 1 - Intro (element only)  ==========================
+# ========================== 1 - Intro (element only)  =================================================================
 
 def main_intro():
     layout = [[sg.T('Progress Bars')],
