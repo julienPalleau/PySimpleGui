@@ -6,6 +6,7 @@ Button Element - Lesson Part 3 - Buttons with Image
 Normal buttons can have PNG and GIF images from a file or base64 bytestring
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#button-element
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg

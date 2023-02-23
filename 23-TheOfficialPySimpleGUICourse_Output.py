@@ -4,7 +4,9 @@ The Official Python GUI Programming with PySimpleGUI Course
 Output Element
     Scrolled stdout/stderr output
 
-Docs: https://www.pysimplegui.org/en/latest/call%20reference/#output-element-no-longer-recommended-use-multiline-instead
+Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#output-element-no-longer-recommended-use-multiline-instead
+
 Built-in help: sg.sdk_help()
 """
 import threading

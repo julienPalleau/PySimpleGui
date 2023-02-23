@@ -8,6 +8,8 @@ OptionMenu = unique to tkinter
     Alias = InputOptionMenu
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#combo-element
+
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg

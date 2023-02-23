@@ -7,6 +7,8 @@ Button Element - Lesson Part 2 - Chooser Buttons (type of Button)
     Color Chooser
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#pre-defined-buttons-use-in-your-layout
+
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg

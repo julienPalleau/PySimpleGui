@@ -7,6 +7,7 @@
         Additional methods = update_animation, update_animation_no_buffering
 
     Docs: http://www.PySimpleGUI.org
+    https://www.pysimplegui.org/en/latest/call%20reference/#image-element
     Built-in help: sg.sdk_help()
 
     Copyright 2021 PySimpleGUI

@@ -19,6 +19,8 @@ PySimpleGUI & PySimpleGUIQt
     PySimpleGUIQt's sliders are in only (not a big problem as you'll see)
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#slider-element
+
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg

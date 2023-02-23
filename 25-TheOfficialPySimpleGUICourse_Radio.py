@@ -6,6 +6,8 @@ Radio Element (i.e RadoButton)
     Radio, Rad, R
 
     Docs: http://www.PySimpleGUI.org
+    https://www.pysimplegui.org/en/latest/call%20reference/#radio-element
+
     Buit-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg

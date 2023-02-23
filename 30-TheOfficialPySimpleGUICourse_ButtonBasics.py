@@ -6,6 +6,7 @@ Button Element
     Aliases = B, Btn
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#button-element
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg

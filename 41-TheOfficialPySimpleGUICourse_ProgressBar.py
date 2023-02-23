@@ -4,6 +4,7 @@ ProgressBar Element - A horizontal or vertical progress bar / progress meter
 Aliases:
     PBar = Prog = Progress = ProgressBar
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#progressbar-element
 Built-in help: sg.sdk_help()
 """
 

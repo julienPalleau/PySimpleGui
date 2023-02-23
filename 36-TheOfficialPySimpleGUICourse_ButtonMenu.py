@@ -5,6 +5,7 @@ ButtonMenu Element - Button the appears like a right click menu
     Aliases = BMenu, BM
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#buttonmenu-element
 Built-in help: sg.sdk_help()
 """
 

@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/42-TheOfficialPySimpleGUICourse_Column.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/43-TheOfficialPySimpleGUICourse_Frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/44-TheOfficialPySimpleGUICourse_TabTabGroup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" beforeDir="false" afterPath="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25-TheOfficialPySimpleGUICourse_Radio.py" beforeDir="false" afterPath="$PROJECT_DIR$/25-TheOfficialPySimpleGUICourse_Radio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" beforeDir="false" afterPath="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" beforeDir="false" afterPath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29-TheOfficialPySimpleGUICourse_Listbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/29-TheOfficialPySimpleGUICourse_Listbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-TheOfficialPySimpleGUICourse_ButtonBasics.py" beforeDir="false" afterPath="$PROJECT_DIR$/30-TheOfficialPySimpleGUICourse_ButtonBasics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/31-TheOfficialPySimpleGUICourse_ChooserButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/31-TheOfficialPySimpleGUICourse_ChooserButtons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32-TheOfficialPySimpleGUICourse_ImageButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/32-TheOfficialPySimpleGUICourse_ImageButtons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/35-TheOfficialPySimpleGUICourse_Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/35-TheOfficialPySimpleGUICourse_Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/37-TheOfficialPySimpleGUICourse_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/37-TheOfficialPySimpleGUICourse_Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/38-TheOfficialPySimpleGUICourse_Separators.py" beforeDir="false" afterPath="$PROJECT_DIR$/38-TheOfficialPySimpleGUICourse_Separators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/39-TheOfficialPySimpleGUICourse_Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/39-TheOfficialPySimpleGUICourse_Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/40-TheOfficialPySimpleGUICourse_Canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/40-TheOfficialPySimpleGUICourse_Canvas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/41-TheOfficialPySimpleGUICourse_ProgressBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/41-TheOfficialPySimpleGUICourse_ProgressBar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-TheOfficialPySimpleGUICourse_Column.py" beforeDir="false" afterPath="$PROJECT_DIR$/42-TheOfficialPySimpleGUICourse_Column.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +71,7 @@
       <recent name="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.42-TheOfficialPySimpleGUICourse_Column">
-    <configuration name="36-TheOfficialPySimpleGUICourse_ButtonMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.44-TheOfficialPySimpleGUICourse_TabTabGroup">
     <configuration name="41-Exercices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,6 +135,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="43-TheOfficialPySimpleGUICourse_Frame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/43-TheOfficialPySimpleGUICourse_Frame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="44-TheOfficialPySimpleGUICourse_TabTabGroup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/44-TheOfficialPySimpleGUICourse_TabTabGroup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,34 +198,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="element_progressbar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/element_progressbar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.44-TheOfficialPySimpleGUICourse_TabTabGroup" />
+        <item itemvalue="Python.43-TheOfficialPySimpleGUICourse_Frame" />
         <item itemvalue="Python.42-TheOfficialPySimpleGUICourse_Column" />
         <item itemvalue="Python.41-Exercices" />
         <item itemvalue="Python.41-TheOfficialPySimpleGUICourse_ProgressBar" />
-        <item itemvalue="Python.element_progressbar" />
-        <item itemvalue="Python.36-TheOfficialPySimpleGUICourse_ButtonMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -200,5 +218,16 @@
       <updated>1672820639778</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/30-TheOfficialPySimpleGUICourse_ButtonBasics.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

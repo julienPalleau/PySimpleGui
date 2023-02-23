@@ -27,6 +27,7 @@ Aliases:
         send_figure_to_back
 
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#graph-element
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg
