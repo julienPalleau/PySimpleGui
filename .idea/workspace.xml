@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/43-TheOfficialPySimpleGUICourse_Frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/44-TheOfficialPySimpleGUICourse_TabTabGroup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" beforeDir="false" afterPath="$PROJECT_DIR$/23-TheOfficialPySimpleGUICourse_Output.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/24-TheOfficialPySimpleGUICourse_CheckBox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25-TheOfficialPySimpleGUICourse_Radio.py" beforeDir="false" afterPath="$PROJECT_DIR$/25-TheOfficialPySimpleGUICourse_Radio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" beforeDir="false" afterPath="$PROJECT_DIR$/26-TheOfficialPySimpleGUICourse_Spin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" beforeDir="false" afterPath="$PROJECT_DIR$/27-TheOfficialPySimpleGUICourse_ComboOption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/28-TheOfficialPySimpleGUICourse_Listbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/29-TheOfficialPySimpleGUICourse_Listbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/29-TheOfficialPySimpleGUICourse_Listbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30-TheOfficialPySimpleGUICourse_ButtonBasics.py" beforeDir="false" afterPath="$PROJECT_DIR$/30-TheOfficialPySimpleGUICourse_ButtonBasics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/31-TheOfficialPySimpleGUICourse_ChooserButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/31-TheOfficialPySimpleGUICourse_ChooserButtons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/32-TheOfficialPySimpleGUICourse_ImageButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/32-TheOfficialPySimpleGUICourse_ImageButtons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/35-TheOfficialPySimpleGUICourse_Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/35-TheOfficialPySimpleGUICourse_Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/37-TheOfficialPySimpleGUICourse_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/37-TheOfficialPySimpleGUICourse_Image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/38-TheOfficialPySimpleGUICourse_Separators.py" beforeDir="false" afterPath="$PROJECT_DIR$/38-TheOfficialPySimpleGUICourse_Separators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/39-TheOfficialPySimpleGUICourse_Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/39-TheOfficialPySimpleGUICourse_Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/40-TheOfficialPySimpleGUICourse_Canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/40-TheOfficialPySimpleGUICourse_Canvas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/41-TheOfficialPySimpleGUICourse_ProgressBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/41-TheOfficialPySimpleGUICourse_ProgressBar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/42-TheOfficialPySimpleGUICourse_Column.py" beforeDir="false" afterPath="$PROJECT_DIR$/42-TheOfficialPySimpleGUICourse_Column.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/44-TheOfficialPySimpleGUICourse_TabTabGroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/44-TheOfficialPySimpleGUICourse_TabTabGroup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
