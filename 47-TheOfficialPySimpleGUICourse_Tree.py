@@ -3,6 +3,7 @@ The Official Python GUI Programming with PySimpleGUI Course
 Tree Element:
 Additional methods:
 Docs: http://www.PySimpleGUI.org
+https://www.pysimplegui.org/en/latest/call%20reference/#tree-element
 Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg
