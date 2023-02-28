@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/52-TheOfficialPySimpleGUICourse_EventDispatching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/53-TheOfficialPySimpleGUICourse_Justification&amp;Alignment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,28 +52,7 @@
       <recent name="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.52-TheOfficialPySimpleGUICourse_EventDispatching">
-    <configuration name="48-TheOfficialPySimpleGUICourse_Titlebar&amp;MenubarCustom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui\48-TheOfficialPySimpleGUICourse_Titlebar&amp;MenubarCustom.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.53-TheOfficialPySimpleGUICourse_Justification&amp;Alignment">
     <configuration name="49-TheOfficialPySimpleGUICourse_Statusbar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,6 +137,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="53-TheOfficialPySimpleGUICourse_Justification&amp;Alignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/53-TheOfficialPySimpleGUICourse_Justification&amp;Alignment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.53-TheOfficialPySimpleGUICourse_Justification&amp;Alignment" />
         <item itemvalue="Python.52-TheOfficialPySimpleGUICourse_EventDispatching" />
         <item itemvalue="Python.51-TheOfficialPySimpleGUICourse_Push" />
         <item itemvalue="Python.50-TheOfficialPySimpleGUICourse_Sizegrip" />
         <item itemvalue="Python.49-TheOfficialPySimpleGUICourse_Statusbar" />
-        <item itemvalue="Python.48-TheOfficialPySimpleGUICourse_Titlebar&amp;MenubarCustom" />
       </list>
     </recent_temporary>
   </component>
