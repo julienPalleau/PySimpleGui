@@ -35,7 +35,7 @@ Built-in help: sg.sdk_help()
 """
 import PySimpleGUI as sg
 
-example_number = 3
+example_number = 4
 
 sg.set_options(font='Default 16', keep_on_top=True)
 
@@ -130,7 +130,8 @@ def main_example3():
 
     layout = [[sg.Text('Settings Functions')],
               [sg.Text('Section:'), sg.Input(key='-SECTION-', size=15)],
-              [sg.Text('Key:'), sg.Input(key='-KEY-', size=15, do_not_clear=False), sg.Text('Value:'), sg.Input(key='-VALUE-', size=15, do_not_clear=False), sg.Button('Set')],
+              [sg.Text('Key:'), sg.Input(key='-KEY-', size=15, do_not_clear=False), sg.Text('Value:'),
+               sg.Input(key='-VALUE-', size=15, do_not_clear=False), sg.Button('Set')],
               [sg.Text('Key:'), sg.Input(key='-GET-', size=15), sg.Button('Get'), sg.Text(key='-OUT-')],
               [sg.Text('Key:'), sg.Input(key='-DELETE-', size=15, do_not_clear=False), sg.Button('Delete')],
               [sg.Button('Print'), sg.Button('Print Section'), sg.Button('Filename'), sg.Exit()]]
@@ -165,6 +166,25 @@ def main_example3():
     window.close()
 
 
+# ========================== 4 - EXAMPLE - UserSettings - Simple Use ===================================================
+def main_example4():
+    sg.Print(font='Default 16', keep_on_top=True, size=(60, 14), relative_location=(300, 150))
+
+    layout = [[sg.Text('User Settings - Save Window Location')],
+              [sg.Button('Go'), sg.Button('Exit')], ]
+
+    location = sg.user_settings_get_entry('-location-', (None, None))
+    sg.Print(sg.user_settings_filename())
+    window = sg.Window('User Settings - Window Location', layout, location=location, enable_close_attempted_event=True)
+
+    while True:
+        event, values = window.read()
+        if event in (sg.WIN_CLOSE_ATTEMPTED_EVENT, 'Exit'):
+            sg.user_settings_set_entry('-location-', window.current_location())
+            break
+    window.close()
+
+
 if __name__ == '__main__':
-    example = [main_example1, main_example2, main_example3]
+    example = [main_example1, main_example2, main_example3, main_example4]
     example[example_number - 1]()
