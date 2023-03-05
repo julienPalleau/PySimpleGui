@@ -28,8 +28,8 @@ Docs:
     http://www.PySimpleGUI.org
     https://pysimplegui.redthedocs.io/en/latest/call%20reference/#user-settings-api-function-interface
     https://pysimplegui.redthedocs.io/en/latest/call%20reference/#usersettings-api-class-interface
-    https://pysimplegui.redthedocs.io/en/latest/#user-settings-api
-    https://pysimplegui.redthedocs.io/en/latest/cookbook/#recipe-save-and-load-program-settings
+    https://www.pysimplegui.org/en/latest/#user-settings-api
+    https://www.pysimplegui.org/en/latest/cookbook/#recipe-save-and-load-program-settings
 
 Built-in help: sg.sdk_help()
 """
