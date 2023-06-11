@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15ef1ef-2c8b-497c-96b1-b0d660f7fd09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/58-TheOfficialPySimpleGUICourse_Multithreading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/59-TheOfficialPySimpleGUICourse_ExecAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/57-TheOfficialPySimpleGUICourse_UserSettings.py" beforeDir="false" afterPath="$PROJECT_DIR$/57-TheOfficialPySimpleGUICourse_UserSettings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/59-TheOfficialPySimpleGUICourse_ExecAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/59-TheOfficialPySimpleGUICourse_ExecAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/60-TheOfficialPySimpleGUI_PyInstaller&amp;PsgCompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/60-TheOfficialPySimpleGUI_PyInstaller&amp;PsgCompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch_305.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch_305.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/MOTTIER LUCIE/Downloads/UserSettingsAPI(1).py",
+    "last_opened_file_path": "C:/Users/MOTTIER LUCIE/Documents/GitHub/Udemy/CompletePythonBootcampFromZeroToHeroInPython",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "two.files.diff.last.used.file": "C:/Users/MOTTIER LUCIE/Downloads/UserSettingsAPI(1).py"
   }
 }]]></component>
@@ -56,8 +57,8 @@
       <recent name="C:\Users\MOTTIER LUCIE\Documents\GitHub\PySimpleGui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.58-TheOfficialPySimpleGUICourse_Multithreading">
-    <configuration name="36-TheOfficialPySimpleGUICourse_ButtonMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.60-TheOfficialPySimpleGUI_PyInstaller&amp;PsgCompiler">
+    <configuration name="59-TheOfficialPySimpleGUICourse_ExecAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/36-TheOfficialPySimpleGUICourse_ButtonMenu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/59-TheOfficialPySimpleGUICourse_ExecAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="56-TheOfficialPySimpleGUICourse_AccessingUnderlyingWidgets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="60-TheOfficialPySimpleGUI_PyInstaller&amp;PsgCompiler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySimpleGui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,70 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/56-TheOfficialPySimpleGUICourse_AccessingUnderlyingWidgets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="57-TheOfficialPySimpleGUICourse_UserSettings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/57-TheOfficialPySimpleGUICourse_UserSettings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="58-TheOfficialPySimpleGUICourse_Multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58-TheOfficialPySimpleGUICourse_Multithreading.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UserSettingsAPI(1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PySimpleGui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/UserSettingsAPI(1).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/60-TheOfficialPySimpleGUI_PyInstaller&amp;PsgCompiler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,13 +121,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="control (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../qualif2[2363]" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../qualif2[2363]/control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/qualif2[2363]" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/qualif2[2363]/control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySimpleGui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MOTTIER LUCIE\.virtualenvs\Hyperskills\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.58-TheOfficialPySimpleGUICourse_Multithreading" />
-        <item itemvalue="Python.57-TheOfficialPySimpleGUICourse_UserSettings" />
-        <item itemvalue="Python.UserSettingsAPI(1)" />
-        <item itemvalue="Python.56-TheOfficialPySimpleGUICourse_AccessingUnderlyingWidgets" />
-        <item itemvalue="Python.36-TheOfficialPySimpleGUICourse_ButtonMenu" />
+        <item itemvalue="Python.60-TheOfficialPySimpleGUI_PyInstaller&amp;PsgCompiler" />
+        <item itemvalue="Python.59-TheOfficialPySimpleGUICourse_ExecAPI" />
+        <item itemvalue="Python.control (1)" />
+        <item itemvalue="Python.control" />
+        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
